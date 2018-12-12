@@ -157,6 +157,7 @@ footer a {
 
 #language {
 	padding-top: 10px;
+	text-align:center;
 }
 
 #language a {
@@ -174,6 +175,7 @@ footer a {
 	.search {
 		display: block;
 		margin: auto;
+		align-items: center;
 	}
 	.search .input-control input {
 		width: 80%;
@@ -186,6 +188,7 @@ footer a {
 	.search .input-control button {
 		display: inline-block;
 	}
+
 	footer {
 		display: flex;
 		flex-direction: column;
