@@ -1,0 +1,149 @@
+:root {
+    font-size: 16px;
+  }
+  
+  body {
+      margin: 0;
+      padding: 0;
+      font-family: arial,sans-serif;
+      font-size:small;
+  }
+  
+  header {
+      display:flex;
+      justify-content: flex-end;
+  }
+  .main-header {
+    margin-right:10px;
+}
+  
+  .main-header ul li {
+      list-style-type: none;
+      display: inline-block;
+      padding: 10px;
+  }
+  .main-header ul li:last-child {
+      background-color: #4385f7;
+      color: #fff;
+  }
+  .main-page {
+      display: flex;
+      flex-direction:column;
+      justify-content:space-around;
+  }
+  .logo {
+    align-self:center;
+    order:1;
+  }
+  .logo span{
+  font-size:5.72rem;
+  }
+  
+  .logo span:nth-child(1) {
+      color: #4385f7;
+  }
+  .logo span:nth-child(1) {
+      color: #4385f7;
+  }
+  .logo span:nth-child(1) {
+      color: #4385f7;
+  }
+  
+  .logo span:nth-child(2) {
+      color: #ea4335;
+  }
+  .logo span:nth-child(3) { 
+      color:#f4bb05;
+  }
+  
+  .logo span:nth-child(4) {
+      color: #4385f7; 
+  }
+  
+  .logo span:nth-child(5) {
+      color: #48a853;
+  }
+  .logo span:last-child {
+      color: #ea4335;
+  }
+  
+  .search{
+      order: 2;
+      align-self: center;
+      display:inline-flex;
+      flex-direction:column;
+      justify-content:space-between;
+      flex-gap:10px;
+  }
+  
+  .search .input-control{
+    margin-bottom:10px;
+  }
+  .search .input-control input{
+    width:100%;
+  }
+  .search .input-control i{
+    display: none;
+  }
+  
+  footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    background:#f2f1f2;
+  }
+  footer div{
+    color:#747474;
+}
+  footer span {
+    float:right;
+  }
+  
+  .btn {
+    font-weight:20px;
+    background: #f5f5f5;
+    padding:10px;
+    
+  }
+  
+  a {
+    text-decoration:none;
+    font-weight:13px;
+    color:#747474;
+    padding-top: 5px;
+
+  }
+  a:hover{
+    text-decoration:underline;
+    /* font-weight:13px; */
+  }
+
+footer a {
+    color: #5f6368;
+    margin: 2px 10px 0;
+    padding:5px;
+    font-size: 16px;
+}
+.location{
+    padding:10px;
+    left:10px;
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom:5px;
+    font-size: 16px;
+
+}
+#language {
+    padding-top:10px;
+
+}
+#language a{
+    color :#1d1ace;
+    padding-right:10px;
+
+}
+
+@media screen and (max-width:760px){
+
+
+}
